@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import UserInput from './components/UserInput'
+import Users from './components/UserInput'
 import ConnectedUsers from './components/Users'
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <UserInput />
+        <Users />
         <ConnectedUsers />
       </div>
     );
